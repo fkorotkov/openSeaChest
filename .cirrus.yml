@@ -5,5 +5,5 @@ task:
   install_script: pkg install -y gmake
   release_script:
     - cd Make/gcc
-    - make release
+    - gmake release
   
