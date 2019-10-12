@@ -2,6 +2,8 @@ task:
   name: FreeBSD
   freebsd_instance:
     image_family: freebsd-12-0
+    CPU: 4
+    memory: 8G
   install_script: pkg install -y git gmake
   submodules_script:
     - git submodule init
